@@ -18,3 +18,6 @@ For example, if you want to manage a queue of `UILabel`s that simply represent a
     }
 }
 ```
+
+##Performances
+As you can see in the sample included in this repository, I consistently find `FCMutableArray`s to be 20~30x slower than a regular NSMutableArray. This difference doesn't matter for smal to medium arrays (<500 objects), but FCMutableArray for sure shouldn't be considered for large data handlings. 
