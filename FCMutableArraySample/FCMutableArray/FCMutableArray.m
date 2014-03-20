@@ -2,6 +2,7 @@
 //  FCMutableArray.m
 //
 //  Created by Florent Crivello on 12/20/13.
+//	Under GPL-3 Licence
 //
 
 #import "FCMutableArray.h"

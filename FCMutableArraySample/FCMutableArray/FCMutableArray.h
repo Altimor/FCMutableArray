@@ -2,7 +2,7 @@
 //  FCMutableArray.h
 //
 //  Created by Florent Crivello on 12/20/13.
-//	Permission is hereby granted to do whatever the fuck you want with this piece of code
+//	Under GPL-3 Licence
 //
 
 #import <Foundation/Foundation.h>

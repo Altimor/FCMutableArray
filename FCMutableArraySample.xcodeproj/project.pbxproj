@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1EEBF218DBA5CD0076D428 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3D1EEBF118DBA5CD0076D428 /* LICENSE */; };
 		3D3922E818D5C83400DA6A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3922E718D5C83400DA6A25 /* Foundation.framework */; };
 		3D3922EA18D5C83400DA6A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3922E918D5C83400DA6A25 /* CoreGraphics.framework */; };
 		3D3922EC18D5C83400DA6A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3922EB18D5C83400DA6A25 /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D1EEBF118DBA5CD0076D428 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3D3922E418D5C83400DA6A25 /* FCMutableArraySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCMutableArraySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3922E718D5C83400DA6A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3D3922E918D5C83400DA6A25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +123,7 @@
 		3D3922EE18D5C83400DA6A25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D1EEBF118DBA5CD0076D428 /* LICENSE */,
 				3D3922EF18D5C83400DA6A25 /* FCMutableArraySample-Info.plist */,
 				3D3922F018D5C83400DA6A25 /* InfoPlist.strings */,
 				3D3922F318D5C83400DA6A25 /* main.m */,
@@ -214,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1EEBF218DBA5CD0076D428 /* LICENSE in Resources */,
 				3D3922F218D5C83400DA6A25 /* InfoPlist.strings in Resources */,
 				3D3922FA18D5C83400DA6A25 /* Images.xcassets in Resources */,
 			);
