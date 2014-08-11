@@ -48,6 +48,7 @@
 - (FCMutableArray*)initWithDelegate:(id<FCMutableArrayDelegate>)delegate;
 
 - (void)addObject:(id)anObject;
+- (void)addObjectsFromArray:(NSArray *)array;
 - (void)removeObject:(id)anObject;
 - (void)insertObject:(id)anObject atIndex:(NSUInteger)index;
 - (void)removeObjectAtIndex:(NSUInteger)index;

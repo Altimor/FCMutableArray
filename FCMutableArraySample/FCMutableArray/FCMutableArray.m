@@ -109,6 +109,12 @@
 	}
 }
 
+- (void)addObjectsFromArray:(NSArray *)array {
+    for (id anObject in array) {
+        [self addObject:anObject];
+    }
+}
+
 - (void)insertObject:(id)anObject atIndex:(NSUInteger)index {
 	if ([self askDelegateForAdditionOfObject:anObject]) {
 		if(index > self.mutableArray.count){
